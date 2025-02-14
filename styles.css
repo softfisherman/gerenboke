@@ -1,0 +1,122 @@
+/* 通用样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* 标题 */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+}
+
+/* 文章 */
+.articles {
+  margin-bottom: 30px;
+}
+
+.articles article {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articles article h2 {
+  font-size: 1.2rem;
+}
+
+.articles article a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.articles article a:hover {
+  text-decoration: underline;
+}
+
+/* 友情链接 */
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* 标签云 */
+.tags ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tags a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+}
+
+.tags a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Sitemap */
+.sitemap ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sitemap a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.sitemap a:hover {
+  text-decoration: underline;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 50px;
+}
